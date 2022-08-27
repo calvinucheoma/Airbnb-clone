@@ -1,0 +1,11 @@
+.home__section {
+    display: flex;
+    padding: 30px;
+}
+
+@media screen and (max-width: 541px) {
+    .home__section {
+        flex-direction: column;
+        padding: 15px;
+    }
+}

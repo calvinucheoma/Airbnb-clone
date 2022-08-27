@@ -1,0 +1,39 @@
+.searchPage__info {
+    padding: 20px;
+}
+
+.searchPage__info > p {
+    font-size: 14px;
+    margin-bottom: 10px;
+}
+
+.searchPage__info > h1 {
+    margin-bottom: 30px;
+}
+
+.searchPage__info > button {
+    text-transform: inherit;
+    border-radius: 30px;
+    margin: 5px;
+    cursor: pointer;
+}
+
+@media screen and (max-width: 541px) {
+    .searchPage__info {
+        display: flex;
+        flex-direction: column;
+        padding: 10px;
+    }
+
+    .searchPage__info > p {
+        font-size: 12px;
+    }
+
+    .searchPage__info > h1 {
+        font-size: 16px;
+    }
+
+    .searchPage__info > button {
+        font-size: 10px !important;
+    }
+}
